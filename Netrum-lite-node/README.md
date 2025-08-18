@@ -59,7 +59,7 @@ Netrum CLI  Version v2.0.0
 > Register a domain here: https://www.base.org/names
 
 ## Please run the following commands one by one to proceed with registering the node.
-> If you already have an EVM wallet, choose option 2; if not, start with step 1
+> If you already have an EVM wallet, choose option 2; if not, start with option 1
 ### Option 1: Creates a new EVM
 
 ```
@@ -74,7 +74,7 @@ netrum-node-register
 
 ```
 netrum-system
-netrum-new-wallet
+netrum-import-wallet
 netrum-check-basename
 netrum-node-id
 netrum-node-sign
