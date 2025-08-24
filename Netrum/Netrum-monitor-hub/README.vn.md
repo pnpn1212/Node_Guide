@@ -106,3 +106,6 @@ docker compose up --build -d
 ---
 ## 📑 Example Output
 
+<img width="750" height="459" alt="image" src="https://github.com/user-attachments/assets/4c78d9f0-1b85-4118-8b66-1af2b0b8063e" />
+<img width="741" height="1280" alt="image" src="https://github.com/user-attachments/assets/6ef52dbe-8c5f-4afe-9ced-f21014e50578" />
+
