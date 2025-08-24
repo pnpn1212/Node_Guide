@@ -17,7 +17,8 @@ By running this Node, you contribute to decentralization, network security, and 
 ## 📑 Table of Contents
 | Project | Description | Guide |
 |---------|-------------|-------|
-| Netrum | Node source for [Netrum-lite-node] | [View Guide](./Netrum/Netrum-lite-node/README.md) |
+| Netrum-Lite_node | Node source for [Netrum-lite-node] | [View Guide](./Netrum/Netrum-lite-node/README.md) |
+| Netrum-Monitor-Hub | Node source for [Netrum-monitor-hub] | [View Guide](./Netrum/Netrum-monitor-hub/README.md) |
 
 > ℹ️ This table will grow as more projects are added.  
 
