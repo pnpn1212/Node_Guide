@@ -13,6 +13,7 @@ A tool to manage and monitor your Netrum Lite Node directly via Telegram and Dis
 - Set a delay before executing an action
 - Claim mining rewards   
 - View bot logs
+- Change language EN/VN
 
 ## 📦 Requirements
 - Docker Compose
@@ -84,13 +85,13 @@ docker compose up --build -d
 
 `/wallet` → View wallet balance and address  
 
-`/status` → Check if node is running  
-
 `/logs` → Check bot logs
 
 `/claim` → To claim the reward, click ✅ Yes or ❌ Cancel
 
 `/set_timeout` → Set a delay before executing an action
+
+`/lang` → Change language EN/VN
 
 ---
 ## 📑 Example Output
