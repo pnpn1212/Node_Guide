@@ -17,10 +17,18 @@
 ```
 git clone https://github.com/NetrumLabs/netrum-lite-node.git
 cd netrum-lite-node
+```
+```
 sudo apt update && sudo apt install -y curl bc jq speedtest-cli nodejs npm
+```
+```
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
+```
+```
 npm install
+```
+```
 npm link
 ```
 
