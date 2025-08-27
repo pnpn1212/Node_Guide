@@ -1,6 +1,6 @@
 # NETRUM-LITE-NODE
 
-## Hardware & Network Requirements 
+## ✨ Hardware & Network Requirements 
 
 |  Component	|         Minimum           |       Recommended         |
 | :---------: | :-----------------------: |:-----------------------:  |    
@@ -9,35 +9,47 @@
 | **Storage** |         50 GB SSD         |        ≥ 100 GB SSD       |
 | **NETWORK** |         10 Mbps           |        ≥ 10 Mbps          |
 
-- SSD storage is highly recommended for faster performance and node stability.
-- A stable and fast internet connection is important for uptime sync, mining tasks, and daily reward claims.
+- **SSD storage is highly recommended for faster performance and node stability.**
 
-## Netrum Lite Node – Setup Guide
+- **A stable and fast internet connection is important for uptime sync, mining tasks, and daily reward claims.**
 
-```
-git clone https://github.com/NetrumLabs/netrum-lite-node.git
-cd netrum-lite-node
-```
-```
+## 📦 Requirements
+- 💠 **Register a domain here:** https://www.base.org/names
+
+- ⚠️ **Not supported on PowerShell/CMD. Use WSL or a Linux VPS, and it is mandatory to run as root.**
+
+
+## ⚙️ Netrum Lite Node – Setup Guide
+
+### ✅ 1. Install required libraries
+```bash
 sudo apt update && sudo apt install -y curl bc jq speedtest-cli nodejs npm
 ```
-```
+```bash
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
+
+### ✅ 2. Clone this repository
+```bash
+git clone https://github.com/NetrumLabs/netrum-lite-node.git
+cd netrum-lite-node
 ```
+
+### ✅ 3. Run node
+```bash
 npm install
 ```
-```
+```bash
 npm link
 ```
 
-### Test the CLI
-```
+### ✅ 4. Test the CLI
+```bash
 netrum
 ```
 
-> You should see the Netrum Lite Node CLI interface.
+> ⚠️ **You should see the Netrum Lite Node CLI interface.**
 ```
 Netrum CLI  Version v2.0.0
        Light-weight node & wallet toolkit for the Netrum network.
@@ -64,32 +76,52 @@ Netrum CLI  Version v2.0.0
        Run netrum <command> --help for command-specific options.
 ```
 
-> Register a domain here: https://www.base.org/names
+## ⏩ Please run the following commands one by one to proceed with registering the node.
 
-## Please run the following commands one by one to proceed with registering the node.
-> If you already have an EVM wallet, choose option 2; if not, start with option 1
-### Option 1: Creates a new EVM
+> ⚠️ **If you already have an EVM wallet, choose option 2 if not, start with option 1**
 
-```
+### Option 1️⃣: Creates a new EVM
+
+```bash
 netrum-system
+```
+```bash
 netrum-new-wallet
+```
+```bash
 netrum-check-basename
+```
+```bash
 netrum-node-id
+```
+```bash
 netrum-node-sign
+```
+```bash
 netrum-node-register
 ```
-### Option 2: Import an existing wallet by entering your private key
+### Option 2️⃣: Import an existing wallet by entering your private key
 
-```
+```bash
 netrum-system
+```
+```bash
 netrum-import-wallet
+```
+```bash
 netrum-check-basename
+```
+```bash
 netrum-node-id
+```
+```bash
 netrum-node-sign
+```
+```bash
 netrum-node-register
 ```
 
-### Run Node 
+## ⏩ Run Node 
 ```
 netrum-mining
 ```
@@ -102,7 +134,7 @@ netrum-mining-log
 netrum-claim
 ```
 
-# How to Use Netrum CLI Commands
+# 📑 How to Use Netrum CLI Commands
 
 - **`netrum-system` :** This command checks your VPS system status, including CPU, RAM, and internet speed. Use it to make sure your machine meets the basic requirements before setup.
 
