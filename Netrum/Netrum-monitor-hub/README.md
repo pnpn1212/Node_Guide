@@ -77,6 +77,13 @@ DISCORD_WEBHOOK=
 ```
 docker compose up --build -d
 ```
+
+## ⬆️ Upgrade
+```
+cd $HOME/netrum-monitor-hub
+git pull
+```
+
 ---
 
 ### Once the bot is online, use slash commands in Telegram:
