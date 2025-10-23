@@ -9,7 +9,7 @@ Công cụ quản lý và giám sát Netrum Lite Node trực tiếp thông qua T
 
 ## ✨ Tính năng
 - Kiểm tra trạng thái online/offline của node
-- Giám sát số dư ví & địa chỉ
+- Theo dõi số dư ví
 - Đặt thời gian cho mỗi lần gửi báo cáo trạng thái mining
 - Claim phần thưởng đào coin
 - Xem log của bot
@@ -60,7 +60,7 @@ cd netrum-monitor-hub
 ```
 
 ### 3. Cấu hình `.netrum`
-Chỉnh sửa file `.netrum` trong thư mục bot::
+Chỉnh sửa file `.netrum` trong thư mục bot:
 
 ```
 # Cấu hình Telegram Bot
